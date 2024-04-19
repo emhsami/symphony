@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-wrapper {
+    width: 300px;
+    height: 600px;
+    position: relative;
+    box-shadow: 0 0 20px 2px;
+    overflow: hidden;
+}
+
+.main-wrapper * {
+    position: absolute;
+}
+
+/* frame 1 pictures */
+.frame-1-pic-1, .frame-1-pic-2, .frame-1-pic-3, .frame-1-pic-4 {
+    opacity: 0;
+}
+
+.logo-main {
+    top: -40px;
+    opacity: 0;
+}
+
+/* frame 2 texts */
+.frame-2-text-1, .frame-2-text-2 {
+    left: -275px;
+    opacity: 0;
+}
+
+/* frame 3 text */
+.frame-3-text-1 {
+    left: -210px;
+    opacity: 0;
+}
+
+/* frame 4 laptops */
+.award-logo {
+    opacity: 0;
+    top: 50px;
+}
+
+.phone-1, .phone-2, .phone-3, .phone-4 {
+    top: -200px;
+    left: 210px;
+    scale: 0.5;
+}
+
+.vendor_logo, .product_frame, .cta {
+    opacity: 0;
+}
